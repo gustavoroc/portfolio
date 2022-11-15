@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+
     background-color: #014e8625;
  }
  
@@ -10,4 +11,13 @@ body {
 
  .margin-25 {
     margin-top: 25px;
+}
+
+.icon {
+    height: 100%;
+    filter: invert(1);
+}
+
+.transition-5 {
+    transition: .5s;
 }

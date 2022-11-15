@@ -1,0 +1,20 @@
+.footer-container {
+    height: 15vh;
+    
+    background: rgb(14,120,195);
+    background: linear-gradient(90deg, rgba(14,120,195,1) 19%, rgba(1,79,134,1) 67%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 60px;
+}
+
+.footer-container__icon-link {
+    height: 32%;
+}
+
+.footer-container__icon-link:hover {
+    opacity: .8;
+}
