@@ -24,3 +24,10 @@ body {
 .main-box-shadow {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.font-linear-gradient {
+    background: rgb(12,90,145);
+    background: linear-gradient(105deg, rgba(12,90,145,1) 10%, rgba(14,120,195,1) 10%, rgba(1,79,134,1) 67%, rgba(19,109,172,1) 82%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
