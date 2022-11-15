@@ -21,3 +21,7 @@ body {
 .transition-5 {
     transition: .5s;
 }
+
+.main-box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

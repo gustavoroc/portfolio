@@ -13,6 +13,7 @@
 
 .footer-container__icon-link {
     height: 32%;
+    border-radius: 100%;
 }
 
 .footer-container__icon-link:hover {
