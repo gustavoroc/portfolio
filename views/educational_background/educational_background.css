@@ -1,0 +1,58 @@
+.educational-background {
+    position: relative;
+
+    height: 70vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255) !important;
+
+    z-index: 10;
+}
+
+#background-video {
+    position: fixed;
+
+    opacity: .3;
+
+    object-fit: fill;
+
+    width: 100%;
+    height: 70vh;
+
+    z-index: -10;
+
+}
+
+
+.educational-background__main-content {
+    z-index: 20;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    
+    padding: 10px 100px;
+    
+    color: #848c93;
+}
+
+.educational-background__main-content h1 {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.095);   
+}
+
+.educational-background__main-content hr {
+    width: 80%;
+}
+
+.educational-background__list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.educational-background__list li {
+    font-size: 22px;
+}

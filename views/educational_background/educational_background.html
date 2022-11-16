@@ -5,10 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="./educational_background.css">
+    <link rel="stylesheet" href="../../style/footer/footer.css">
+    <link rel="stylesheet" href="../../style/navbar/navbar.css">
+    <link rel="stylesheet" href="../../style/general.css">
+
+    <link rel="stylesheet" href="educational_background.css">
+
     
     <title>Portfolio - Formacao Academica</title>
 </head>
 <body>
-    <h1>Educational Background</h1>
+
+    <nav class="nav-bar">
+        <ul class="nav-bar__list">
+            <li class="nav-bar__element transition-5 main-box-shadow">
+                <a href="../../index.html">Menu</a>
+            </li>
+            <li class="nav-bar__element transition-5 main-box-shadow">
+                <a href="../about/about-me.html" >Sobre mim</a>
+            </li>
+            <li class="nav-bar__element transition-5 main-box-shadow">
+                <a href="./educational_background.html">Formação</a>
+            </li>
+            <li class="nav-bar__element transition-5 main-box-shadow">
+                <a href="#">Atuação profissional</a>
+            </li>
+            <li class="nav-bar__element transition-5 main-box-shadow">
+                <a href="#">Contato</a>
+            </li>
+            <li class="nav-bar__element transition-5 main-box-shadow">
+                <a href="#">Portfolio</a>
+            </li>
+            <li class="nav-bar__element transition-5 main-box-shadow">
+                <a href="#">Tecnologias</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="educational-background">
+        <video autoplay muted loop id="background-video">
+            <source 
+                src="../../assets/videos/studying-video_2.mp4"
+                type="video/mp4">
+         </video>
+        <section class="educational-background__main-content">
+            <h1 class="head-txt font-linear-gradient">
+                Formacao Acadêmica
+            </h1>
+            <ul class="educational-background__list">
+                <li>Matemática/UFSC - 2020/2020</li>
+                <li>Sistemas de Informação/UFSC - 2022/ Presente</li>
+            </ul>
+            <hr>
+            <ul class="educational-background__list">
+                <li>Database Design and Basic SQL/Umich - 2022</li>
+                <li>Javascript Course/Udemy - 2021</li>
+                <li>HTML and CSS Course/Udemy - 2021</li>
+                <li>Iniciando o AspNetCore/Desenvolvedor.io - 2022</li>
+                <li>Trilha Arquitetura .NET/The Developers Conference - 2022</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="footer-container">
+        <a href="#" class="footer-container__icon-link transition-5 main-box-shadow">
+            <img 
+               class="icon"
+               src="../../assets/icons/Github_icon.png">
+        </a>
+        <a href="#" class="footer-container__icon-link transition-5 main-box-shadow">
+            <img 
+                class="icon"
+                src="../../assets/icons/Instagram_icon.png">
+        </a>
+        <a href="#" class="footer-container__icon-link transition-5 main-box-shadow">
+            <img 
+                class="icon"
+                src="../../assets/icons/Linkedin_icon.png">
+        </a>
+    </footer>
 </body>
 </html>
