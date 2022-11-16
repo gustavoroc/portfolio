@@ -17,19 +17,6 @@
     gap: 30px
 }
 
-.about-page-container__information-list {
-    list-style: none;
-    
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    color: #666666;
-
-    font-size: 26px;
-    font-weight: 500
-}
-
 .about-page-container__img-container {
     width: 30%;
     height: 70%;

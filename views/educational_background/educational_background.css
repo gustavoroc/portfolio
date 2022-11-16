@@ -22,7 +22,6 @@
 
 }
 
-
 .educational-background__main-content {
     z-index: 20;
 
@@ -44,15 +43,4 @@
 
 .educational-background__main-content hr {
     width: 80%;
-}
-
-.educational-background__list {
-    display: flex;
-    flex-direction: column;
-
-    gap: 20px;
-}
-
-.educational-background__list li {
-    font-size: 22px;
 }

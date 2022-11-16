@@ -19,3 +19,14 @@
     opacity: .9;
     cursor: pointer;
 }
+
+.default-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.default-list li {
+    font-size: 22px;
+}
