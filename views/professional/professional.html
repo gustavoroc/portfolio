@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Atuacao Profissional</title>
 
-    <link rel="stylesheet" href="./about-me.css">
-
-    <link rel="stylesheet" href="../../style/general.css">
+    <link rel="stylesheet" href="./professional.css">
+    
     <link rel="stylesheet" href="../../style/navbar/navbar.css">
     <link rel="stylesheet" href="../../style/footer/footer.css">
-    <link rel="stylesheet" href="../../style/components.css">
+    <link rel="stylesheet" href="../../style/general.css">
 
-    <title>Portfolio - Sobre mim</title>
 </head>
 <body>
     <nav class="nav-bar">
@@ -21,13 +20,13 @@
                 <a href="../../index.html">Inicio</a>
             </li>
             <li class="nav-bar__element transition-5 main-box-shadow">
-                <a href="./about-me.html" >Sobre mim</a>
+                <a href="../about/about-me.html" >Sobre mim</a>
             </li>
             <li class="nav-bar__element transition-5 main-box-shadow">
                 <a href="../educational_background/educational_background.html">Formação</a>
             </li>
             <li class="nav-bar__element transition-5 main-box-shadow">
-                <a href="../professional/professional.html">Atuação profissional</a>
+                <a href="./professional.html">Atuação profissional</a>
             </li>
             <li class="nav-bar__element transition-5 main-box-shadow">
                 <a href="#">Contato</a>
@@ -41,30 +40,32 @@
         </ul>
     </nav>
 
-    <main class="about-page-container">
+    <div class="professional-container">
+        <h1 class="font-linear-gradient head-txt">Com o que trabalho?</h1>
+        <section class="professional-content">
+            
 
-        <section class="about-page-container__principal-information">
-            <h1 class="font-linear-gradient head-txt">Sobre mim</h1>
-            <ul class="default-list">
-                <li>
-                    Sou desenvolvedor Front End, morando em <br>Florianopolis - SC
-                </li>
-                <li>
-                    Atualmente curso Sistemas de Informacao, na Universidade Federal de Santa Catarina.
-                </li>
-                <li>
-                    Se não estou codando, gosto de brincar com meu<br> cachorro =)
-                </li>
-            </ul>
+            
+            <div class="professional-content__img-container">
+                <img 
+                class="professional-content__img"
+                src="../../assets/icons/Typescript_icon.png"/>
+            </div>
+            
+            <div class="professional-content__img-container">
+                <img 
+                    class="professional-content__img"
+                    id="main-img"
+                    src="../../assets/photos/code_photo.jpg"/>
+            </div>
+
+            <div class="professional-content__img-container">
+                <img 
+                    class="professional-content__img"
+                    src="../../assets/icons/Angular_icon.png"/>
+            </div>
         </section>
-        
-        <div class="about-page-container__img-container">
-            <img 
-                src="../../assets/photos/dog-photo.jpg"
-                class="about-page-container__img">
-        </div>
-
-    </main>
+    </div>
 
     <footer class="footer-container">
         <a href="#" class="footer-container__icon-link transition-5 main-box-shadow">
