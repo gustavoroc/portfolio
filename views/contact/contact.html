@@ -4,20 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Contato</title>
 
-    <link rel="stylesheet" href="./educational_background.css">
-    
+    <link rel="stylesheet" href="./contact.css">
+
     <link rel="stylesheet" href="../../style/footer/footer.css">
     <link rel="stylesheet" href="../../style/navbar/navbar.css">
     <link rel="stylesheet" href="../../style/general.css">
     <link rel="stylesheet" href="../../style/components.css">
-
-
     
-    <title>Portfolio - Formação Academica</title>
 </head>
 <body>
-
     <nav class="nav-bar">
         <ul class="nav-bar__list">
             <li class="nav-bar__element transition-5 main-box-shadow">
@@ -26,14 +23,14 @@
             <li class="nav-bar__element transition-5 main-box-shadow">
                 <a href="../about/about-me.html" >Sobre mim</a>
             </li>
-            <li class="nav-bar__element nav-bar__element--active transition-5 main-box-shadow">
-                <a href="./educational_background.html">Formação</a>
+            <li class="nav-bar__element transition-5 main-box-shadow">
+                <a href="../educational_background/educational_background.html">Formação</a>
             </li>
             <li class="nav-bar__element transition-5 main-box-shadow">
                 <a href="../professional/professional.html">Atuação profissional</a>
             </li>
-            <li class="nav-bar__element transition-5 main-box-shadow">
-                <a href="../contact/contact.html">Contato</a>
+            <li class="nav-bar__element nav-bar__element--active transition-5 main-box-shadow">
+                <a href="./contact.html">Contato</a>
             </li>
             <li class="nav-bar__element transition-5 main-box-shadow">
                 <a href="#">Portfolio</a>
@@ -44,30 +41,20 @@
         </ul>
     </nav>
 
-    <div class="educational-background">
-        <video autoplay muted loop id="background-video">
-            <source 
-                src="../../assets/videos/studying-video_2.mp4"
-                type="video/mp4">
-         </video>
-        <section class="educational-background__main-content">
-            <h1 class="head-txt font-linear-gradient">
-                Formação Acadêmica
-            </h1>
-            <ul class="default-list">
-                <li>Matemática/UFSC - 2020/2020</li>
-                <li>Sistemas de Informação/UFSC - 2022/ Presente</li>
-            </ul>
-            <hr>
-            <ul class="default-list">
-                <li>Database Design and Basic SQL/Umich - 2022</li>
-                <li>Javascript Course/Udemy - 2021</li>
-                <li>HTML and CSS Course/Udemy - 2021</li>
-                <li>Iniciando o AspNetCore/Desenvolvedor.io - 2022</li>
-                <li>Trilha Arquitetura .NET/The Developers Conference - 2022</li>
-            </ul>
-        </section>
-    </div>
+    <main class="contact-container">
+        <h1 class="head-txt font-linear-gradient contact-container__title">Fale Comigo</h1>
+        <form class="contact-form main-box-shadow">
+            <div class="contact-form__head">
+                <a class="transition-5" href="https://www.linkedin.com/in/gustavo-da-rocha-pereira-2baa4a222/" target="_blank">LinkedIn</a>
+                <a class="transition-5" href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a class="transition-5" href="https://github.com/gustavoroc" target="_blank">GitHub</a>
+            </div>
+            <input type="email" placeholder="Digite seu E-mail aqui">
+            <input type="text" placeholder="Digite seu nome aqui">
+            <textarea placeholder="Sua mensagem"></textarea>
+            <button class="default-btn default-btn:hover transition-5" type="submit">Contatar</button>
+        </form>
+    </main>
 
     <footer class="footer-container">
         <a href="#" class="footer-container__icon-link transition-5 main-box-shadow">
