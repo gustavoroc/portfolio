@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,16 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./educational_background.css">
-    
+    <link rel="stylesheet" href="./portfolio.css">
+
     <link rel="stylesheet" href="../../style/footer/footer.css">
     <link rel="stylesheet" href="../../style/navbar/navbar.css">
     <link rel="stylesheet" href="../../style/general.css">
-    <link rel="stylesheet" href="../../style/components.css">
 
-
-    
-    <title>Portfolio - Formação Academica</title>
+    <title>Portfolio - Projetos</title>
 </head>
 <body>
 
@@ -30,8 +27,8 @@
             <li class="nav-bar__element transition-5 main-box-shadow">
                 <a href="../about/about-me.html" >Sobre mim</a>
             </li>
-            <li class="nav-bar__element nav-bar__element--active transition-5 main-box-shadow">
-                <a href="./educational_background.html">Formação</a>
+            <li class="nav-bar__element transition-5 main-box-shadow">
+                <a href="../educational_background/educational_background.html">Formação</a>
             </li>
             <li class="nav-bar__element transition-5 main-box-shadow">
                 <a href="../professional/professional.html">Atuação profissional</a>
@@ -39,39 +36,42 @@
             <li class="nav-bar__element transition-5 main-box-shadow">
                 <a href="../contact/contact.html">Contato</a>
             </li>
-            <li class="nav-bar__element transition-5 main-box-shadow">
-                <a href="../portfolio/portfolio.html">Portfolio</a>
+            <li class="nav-bar__element nav-bar__element--active transition-5 main-box-shadow">
+                <a href="./portfolio.html">Portfolio</a>
             </li>
             <li class="nav-bar__element transition-5 main-box-shadow">
                 <a href="#">Tecnologias</a>
             </li>
         </ul>
     </nav>
+    
+    <main class="portfolio-container">
+        <section>
+            <h1 class="head-txt font-linear-gradient">Portfólio </h1>
+            <div class="articles">
+                <article class="articles__item">
+                    <img src="../../assets/icons/coolors_icon.png">
+                    <h2 class="font-linear-gradient">Coolors</h2>
+                    <p>Uma plataflorma web para descobrir cores para seu design </p>
+                    <a class="font-linear-gradient" href="https://coolors.co/">Saiba mais</a>   
+                </article>
 
-    <div class="educational-background">
-        <video autoplay muted loop id="background-video">
-            <source 
-                src="../../assets/videos/studying-video_2.mp4"
-                type="video/mp4">
-         </video>
-        <section class="educational-background__main-content">
-            <h1 class="head-txt font-linear-gradient">
-                Formação Acadêmica
-            </h1>
-            <ul class="default-list">
-                <li>Matemática/UFSC - 2020/2020</li>
-                <li>Sistemas de Informação/UFSC - 2022/ Presente</li>
-            </ul>
-            <hr>
-            <ul class="default-list">
-                <li>Database Design and Basic SQL/Umich - 2022</li>
-                <li>Javascript Course/Udemy - 2021</li>
-                <li>HTML and CSS Course/Udemy - 2021</li>
-                <li>Iniciando o AspNetCore/Desenvolvedor.io - 2022</li>
-                <li>Trilha Arquitetura .NET/The Developers Conference - 2022</li>
-            </ul>
+                <article class="articles__item">
+                    <img src="../../assets/icons/unsplash_logo.png">
+                    <h2 class="font-linear-gradient">Unsplash</h2>
+                    <p>Um site de fotos sem copywrite para uso livre em seus projetos</p>
+                    <a class="font-linear-gradient" href="https://unsplash.com/">Saiba mais</a>
+                </article>
+
+                <article class="articles__item">
+                    <img src="../../assets/icons/dog_logo.png">
+                    <h2 class="font-linear-gradient">Dog Ceo</h2>
+                    <p>Uma API de uso livre para achar fotos de qualquer tipo de cachorro</p>
+                    <a class="font-linear-gradient" href="https://dog.ceo/">Saiba mais</a>
+                </article>
+            </div>
         </section>
-    </div>
+    </main>
 
     <footer class="footer-container">
         <a href="#" class="footer-container__icon-link transition-5 main-box-shadow">
