@@ -26,3 +26,10 @@
 .default-list li {
     font-size: 22px;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+}

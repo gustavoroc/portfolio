@@ -1,7 +1,8 @@
 .nav-bar {
     background: rgb(14,120,195);
     background: linear-gradient(90deg, rgba(14,120,195,1) 19%, rgba(1,79,134,1) 67%);
-    height: 15vh
+    height: 15vh;
+    font-size: 1.5rem;
 }
 
 .nav-bar__list {

@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%; 
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -21,9 +25,6 @@ body {
     transition: .5s;
 }
 
-.main-box-shadow {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
 
 .font-linear-gradient {
     background: rgb(12,90,145);
@@ -33,6 +34,24 @@ body {
 }
 
 .head-txt {
-    font-size: 78px;
+    font-size: 7.8rem;
     font-weight: 700;
+}
+
+.b-radius-100 {
+    border-radius: 100%;
+}
+
+.b-radius-20 {
+    border-radius: 20%;
+}
+
+.default-img {
+    max-width: 35rem;
+    min-width: 25rem;
+    width: 50%;
+}
+
+.default-box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
