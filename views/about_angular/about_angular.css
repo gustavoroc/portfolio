@@ -1,52 +1,51 @@
 .about-angular {
-    height: 70vh;
-    padding: 15px;
+  height: 70vh;
+  padding: 15px;
 }
 
 .about-angular__head {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-angular__head img {
-    width: 150px;
+  width: 150px;
 }
 
 .about-angular__head a:hover {
-    opacity: .8;
+  opacity: 0.8;
 }
 
 .about-angular__content {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 30px;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  gap: 30px;
 }
 
 .about-angular__item {
-    width: 300px;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-
 .about-angular__item h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
 .about-angular__item p {
-    font-size: 24px;
-    font-weight: 300;
-    color: #909EA6;
+  font-size: 24px;
+  font-weight: 300;
+  color: #909ea6;
 }
 
 .about-angular__item ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

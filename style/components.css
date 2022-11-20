@@ -1,29 +1,32 @@
 .default-btn {
-    width: 50%;
-    background: rgb(14,120,195);
-    background: linear-gradient(90deg, rgba(14,120,195,1) 19%, rgba(1,79,134,1) 67%);
-    color: #FFF;
-    font-weight: 600;
-    font-size: 20px;
-    padding: 15px 20px;
-    border: none;
-    border-radius: 30px;
+  width: 50%;
+  background: rgb(14, 120, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 120, 195, 1) 19%,
+    rgba(1, 79, 134, 1) 67%
+  );
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 30px;
 }
 
 .default-btn:hover {
-    opacity: .9;
-    cursor: pointer;
+  opacity: 0.9;
+  cursor: pointer;
 }
 
 .default-list {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 
-    list-style: none;
+  list-style: none;
 }
 
 .default-list li {
-    font-size: 22px;
+  font-size: 22px;
 }
-

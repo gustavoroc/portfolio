@@ -1,24 +1,24 @@
 @media (max-width: 1280px) {
-    .head-txt {
-      font-size: 6.4rem ;
-    }
-  
-    .default-list li {
-      font-size: 1.5rem !important;
-     }
+  .head-txt {
+    font-size: 6.4rem;
   }
-  
-  @media (max-width: 940px) {
-      .container {
-          height: auto;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          gap: 30px;
-          padding: 20px;
-      }
-  
-      section {
-          text-align: center;
-      }
+
+  .default-list li {
+    font-size: 1.5rem !important;
   }
+}
+
+@media (max-width: 940px) {
+  .container {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  section {
+    text-align: center;
+  }
+}

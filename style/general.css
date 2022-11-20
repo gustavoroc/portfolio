@@ -1,63 +1,69 @@
 html {
-    font-size: 62.5%; 
+  font-size: 62.5%;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
- 
+
 * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vh;
 }
 
 .default-img {
-    max-width: 35rem;
-    min-width: 25rem;
-    width: 50%;
+  max-width: 35rem;
+  min-width: 25rem;
+  width: 50%;
 }
 
 .icon {
-    height: 100%;
-    filter: invert(1);
+  height: 100%;
+  filter: invert(1);
 }
 
 .font-linear-gradient {
-    background: rgb(12,90,145);
-    background: linear-gradient(105deg, rgba(12,90,145,1) 10%, rgba(14,120,195,1) 10%, rgba(1,79,134,1) 67%, rgba(19,109,172,1) 82%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: rgb(12, 90, 145);
+  background: linear-gradient(
+    105deg,
+    rgba(12, 90, 145, 1) 10%,
+    rgba(14, 120, 195, 1) 10%,
+    rgba(1, 79, 134, 1) 67%,
+    rgba(19, 109, 172, 1) 82%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .head-txt {
-    font-size: 7.8rem;
-    font-weight: 700;
+  font-size: 7.8rem;
+  font-weight: 700;
 }
 
 .default-box-shadow {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .b-radius-100 {
-    border-radius: 100%;
+  border-radius: 100%;
 }
 
 .b-radius-20 {
-    border-radius: 20%;
+  border-radius: 20%;
 }
 
 .margin-25 {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .transition-5 {
-        transition: .5s;
+  transition: 0.5s;
 }

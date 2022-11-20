@@ -1,44 +1,44 @@
 .portfolio-container {
-    padding: 10px;
-    height: 70vh;
+  padding: 10px;
+  height: 70vh;
 }
 
 .portfolio-container h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .articles {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 140px;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 140px;
+  margin-top: 20px;
 }
 
 .articles__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 300px;
 }
 
 .articles__item img {
-    width: 160px;
-    height: 130px;
+  width: 160px;
+  height: 130px;
 }
 
 .articles__item h2 {
-    font-size: 36px;
-    font-weight: 800;
+  font-size: 36px;
+  font-weight: 800;
 }
 
 .articles__item p {
-    font-size: 24px;
-    font-weight: 300;
-    color: #909EA6;
+  font-size: 24px;
+  font-weight: 300;
+  color: #909ea6;
 }
 
 .articles__item a {
-    text-decoration: none;
+  text-decoration: none;
 }
