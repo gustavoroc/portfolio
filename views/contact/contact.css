@@ -2,44 +2,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     gap: 20px;
-
     height: 70vh;
-
     padding: 20px;
 }
 
 .contact-form {
     width: 40%;
     height: 100%;
-
     border-radius: 40px;
-
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 .contact-form__head {
     width: 100%;
     height: 15%;
-
     border-radius: 30px 30px 0 0;
-
     background: rgb(14,120,195);
     background: linear-gradient(90deg, rgba(14,120,195,1) 19%, rgba(1,79,134,1) 67%);
     color: #FFF;
-
     margin-bottom: 20px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     gap: 30px;
-
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -55,26 +43,19 @@
 
 .contact-form input {
     width: 60%;
-
     margin-bottom: 10px;
     padding: 10px 20px;
-
     border-radius: 30px;
     border: none;
-
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .contact-form textarea {
     border: none;
     resize: none;
-
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
     border-radius: 30px;
-
     margin-bottom: 20px;
-
     width: 70%;
     height: 30%;
     padding: 30px;
