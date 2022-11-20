@@ -16,13 +16,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 70vh;
+  height: 70vh !important;
 }
 
 .default-img {
-  max-width: 35rem;
+  max-width: 45rem;
   min-width: 25rem;
-  width: 50%;
+  width: 30%;
 }
 
 .icon {
@@ -60,8 +60,8 @@ body {
   border-radius: 20%;
 }
 
-.margin-25 {
-  margin-top: 25px;
+.mt-20 {
+  margin-top: 2rem;
 }
 
 .transition-5 {

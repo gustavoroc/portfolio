@@ -9,16 +9,34 @@
 }
 
 @media (max-width: 940px) {
+  .nav-container {
+    height: 5vh;
+  }
+
+  .nav-container__list {
+    display: none;
+  }
+
   .container {
-    height: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    padding: 20px;
+    padding: 0 20px;
+    height: auto !important;
   }
 
   section {
     text-align: center;
+  }
+
+  .footer-container {
+    position: fixed;
+    bottom: 0;
+    height: 5vh;
+  }
+
+  .footer-container__icon-link {
+    height: 62%;
   }
 }

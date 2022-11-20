@@ -1,36 +1,16 @@
-.professional-xp-container {
-  height: 70vh;
-  padding: 30px;
-}
-
-.professional-xp-container__title {
-  text-align: center;
-}
-
-.professional-xp-container__content {
-  margin-top: 30px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .professional-xp-container__item {
-  width: 65%;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 30px;
+  gap: 2rem;
+
+  margin-top: 30px;
 }
 
 .professional-xp-container__item img {
   width: 15%;
-  max-width: 82px;
+  max-width: 8.2rem;
 }
 
 .professional-xp-container__item p {
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 2.3rem;
 }
