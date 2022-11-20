@@ -12,6 +12,13 @@ body {
      box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+}
+
 .margin-25 {
     margin-top: 25px;
 }
@@ -54,4 +61,29 @@ body {
 
 .default-box-shadow {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (max-width: 1280px) {
+  .head-txt {
+    font-size: 6.4rem ;
+  }
+
+  .default-list li {
+    font-size: 1.5rem !important;
+   }
+}
+
+@media (max-width: 940px) {
+    .container {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    section {
+        text-align: center;
+    }
 }
