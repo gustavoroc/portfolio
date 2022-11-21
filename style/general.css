@@ -16,7 +16,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 70vh !important;
+  height: 70vh;
 }
 
 .default-img {
@@ -66,4 +66,8 @@ body {
 
 .transition-5 {
   transition: 0.5s;
+}
+
+.disabled {
+  display: none !important;
 }

@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="../../style/components.css" />
     <link rel="stylesheet" href="../../style/media-queries.css" />
 
+    <script defer src="../../index.js"></script>
+
     <title>Portfolio - Sobre mim</title>
   </head>
   <body>
@@ -30,7 +32,7 @@
             <a href="../../">Inicio</a>
           </li>
           <li
-            class="nav-container__element transition-5 default-box-shadow nav-container__element--active"
+            class="nav-container__element nav-container__element--active transition-5 default-box-shadow"
           >
             <a href="../about/about-me.html">Sobre mim</a>
           </li>
@@ -52,6 +54,43 @@
             <a href="../about_angular/about_angular.html">Angular</a>
           </li>
         </ul>
+        <div class="nav-container__responsive">
+          <div class="nav-container__hamburguer">
+            <div class="nav-container__hamburguer-el"></div>
+            <div class="nav-container__hamburguer-el"></div>
+            <div class="nav-container__hamburguer-el"></div>
+          </div>
+          <ul class="nav-container__hamburguer-content disabled">
+            <div class="nav-container__hamburguer-close">
+              <button class="default-btn">X</button>
+            </div>
+            <li><a href="../../">Inicio</a></li>
+            <li>
+              <a class="nav-active-link" href="../about/about-me.html"
+                >Sobre mim</a
+              >
+            </li>
+            <li>
+              <a href="../educational_background/educational_background.html"
+                >Formação</a
+              >
+            </li>
+            <li>
+              <a href="../professional/professional.html"
+                >Atuação profissional</a
+              >
+            </li>
+            <li>
+              <a href="../contact/contact.html">Contato</a>
+            </li>
+            <li>
+              <a href="../portfolio/portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="../about_angular/about_angular.html">Angular</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 

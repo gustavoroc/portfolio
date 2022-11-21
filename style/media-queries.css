@@ -1,6 +1,6 @@
 @media (max-width: 1280px) {
   .head-txt {
-    font-size: 6.4rem;
+    font-size: 5.4rem;
   }
 
   .default-list li {
@@ -17,13 +17,17 @@
     display: none;
   }
 
+  .nav-container__hamburguer {
+    display: flex;
+  }
+
   .container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    padding: 0 20px;
-    height: auto !important;
+    padding: 20px;
+    height: 85vh !important;
   }
 
   section {
