@@ -8,10 +8,10 @@
   );
   color: #fff;
   font-weight: 600;
-  font-size: 20px;
-  padding: 15px 20px;
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
   border: none;
-  border-radius: 30px;
+  border-radius: 3rem;
 }
 
 .default-btn:hover {
@@ -22,43 +22,43 @@
 .default-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 1.5rem;
 
   list-style: none;
 }
 
 .default-list li {
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 .articles {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 140px;
-  margin-top: 20px;
+  gap: 14rem;
+  margin-top: 2rem;
 }
 
 .articles__item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
-  width: 300px;
+  gap: 2rem;
+  width: 30rem;
 }
 
 .articles__item img {
-  width: 160px;
-  height: 130px;
+  width: 16rem;
+  height: 13rem;
 }
 
 .articles__item h2 {
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 800;
 }
 
 .articles__item p {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 300;
   color: #909ea6;
 }

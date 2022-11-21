@@ -8,5 +8,5 @@
 .educational-background__main-content {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
 }

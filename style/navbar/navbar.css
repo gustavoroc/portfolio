@@ -23,9 +23,9 @@
 .nav-container__element {
   background-color: #fff;
   color: #014f86;
-  border-radius: 30px;
+  border-radius: 3rem;
   padding: 0.5% 1.3%;
-  font-weight: 700px;
+  font-weight: 70rem;
 }
 
 .nav-container__element a {
@@ -75,7 +75,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 4rem;
   list-style: none;
   color: #014f86;
 }
@@ -87,7 +87,7 @@
 }
 
 .nav-container__hamburguer-close button {
-  width: 60px;
+  width: 6rem;
 }
 
 .nav-container__hamburguer-content a {
