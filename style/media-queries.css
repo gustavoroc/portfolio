@@ -30,6 +30,13 @@
     height: 85vh !important;
   }
 
+  .container-2 {
+    height: 100rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   section {
     text-align: center;
   }
@@ -42,5 +49,23 @@
 
   .footer-container__icon-link {
     height: 62%;
+  }
+
+  .articles {
+    flex-direction: column;
+    gap: 3rem !important  ;
+  }
+
+  .articles__item {
+    gap: 0.5rem !important;
+  }
+
+  .articles__item p {
+    font-size: 20px !important;
+  }
+
+  .articles__item img {
+    width: 150px !important;
+    height: 120px !important;
   }
 }
