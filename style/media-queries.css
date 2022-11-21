@@ -1,4 +1,4 @@
-@media (max-width: 128rem) {
+@media (max-width: 1280px) {
   .head-txt {
     font-size: 5.4rem;
   }
@@ -8,7 +8,7 @@
   }
 }
 
-@media (max-width: 94rem) {
+@media (max-width: 940px) {
   .nav-container {
     height: 5vh;
   }
