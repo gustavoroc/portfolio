@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="../../style/general.css" />
     <link rel="stylesheet" href="../../style/media-queries.css" />
     <link rel="stylesheet" href="../../style/components.css" />
+    <link rel="stylesheet" href="../../style/animation.css" />
 
     <link
       rel="icon"
@@ -75,7 +76,9 @@
             <div class="nav-container__hamburguer-el"></div>
             <div class="nav-container__hamburguer-el"></div>
           </div>
-          <ul class="nav-container__hamburguer-content disabled">
+          <ul
+            class="nav-container__hamburguer-content animation-slide-l-r disabled"
+          >
             <div class="nav-container__hamburguer-close">
               <button class="default-btn">X</button>
             </div>
@@ -113,9 +116,8 @@
           Fale comigo
         </h1>
         <form class="contact-form default-box-shadow">
-          <div></div>
-          <input placeholder="Nome completo" />
-          <input placeholder="Email" />
+          <input placeholder="Nome completo" type="text" />
+          <input placeholder="Email" type="email" />
           <textarea placeholder="Digite aqui sua mensagem"></textarea>
           <button class="default-btn default-box-shadow mt-20">Enviar</button>
         </form>
