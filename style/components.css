@@ -47,6 +47,10 @@
   width: 30rem;
 }
 
+.articles__item a {
+  font-size: 1.8rem;
+}
+
 .articles__item img {
   width: 16rem;
   height: 13rem;
