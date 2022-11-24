@@ -2,7 +2,6 @@ const navHamburguerIcon = document.querySelector('.nav-container__hamburguer')
 const navHamburguerContent = document.querySelector(
   '.nav-container__hamburguer-content'
 )
-
 const navHamburguerCloseIcon = document.querySelector(
   '.nav-container__hamburguer-close'
 )
