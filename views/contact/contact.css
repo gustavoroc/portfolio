@@ -17,6 +17,7 @@
   padding: 15px 30px;
   border-radius: inherit;
   border: 1px solid;
+  z-index: -30;
 }
 
 .contact-form textarea {

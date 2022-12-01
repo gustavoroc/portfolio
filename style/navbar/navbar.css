@@ -78,6 +78,7 @@
   gap: 4rem;
   list-style: none;
   color: #014f86;
+  z-index: 10;
 }
 
 .nav-container__hamburguer-close {
