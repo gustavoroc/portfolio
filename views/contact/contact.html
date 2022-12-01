@@ -39,7 +39,8 @@
     <title>Portfolio - Contato</title>
 
     <script defer src="../../index.js"></script>
-    <script defer src="./formService.js"></script>
+    <script defer src="../../actions/submitForm.js"></script>
+    <script defer src="../../actions/clearMessages.js"></script>
   </head>
   <body>
     <header>
@@ -134,12 +135,8 @@
             class="form-field"
             name="mensagem"
           ></textarea>
-          <button
-            class="default-btn default-box-shadow mt-20"
-            id="submit-form-btn"
-          >
-            Enviar
-          </button>
+          <button class="default-btn" id="submit-form-btn">Enviar</button>
+          <button id="clear-message-btn" type="button">Limpar mensagens</button>
         </form>
       </section>
     </main>
