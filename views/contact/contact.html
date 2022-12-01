@@ -39,6 +39,7 @@
     <title>Portfolio - Contato</title>
 
     <script defer src="../../index.js"></script>
+    <script defer src="./formService.js"></script>
   </head>
   <body>
     <header>
@@ -116,10 +117,29 @@
           Fale comigo
         </h1>
         <form class="contact-form default-box-shadow">
-          <input placeholder="Nome completo" type="text" />
-          <input placeholder="Email" type="email" />
-          <textarea placeholder="Digite aqui sua mensagem"></textarea>
-          <button class="default-btn default-box-shadow mt-20">Enviar</button>
+          <input
+            placeholder="Nome completo"
+            type="text"
+            class="form-field"
+            name="nome"
+          />
+          <input
+            placeholder="Email"
+            type="email"
+            class="form-field"
+            name="email"
+          />
+          <textarea
+            placeholder="Digite aqui sua mensagem"
+            class="form-field"
+            name="mensagem"
+          ></textarea>
+          <button
+            class="default-btn default-box-shadow mt-20"
+            id="submit-form-btn"
+          >
+            Enviar
+          </button>
         </form>
       </section>
     </main>
