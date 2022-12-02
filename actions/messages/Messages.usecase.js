@@ -1,24 +1,20 @@
-class ContactClient {
-  // Essa classe implementaria a interface de contact client.
-  // Esta e a classe de infra (se suja com a dependencia)
-  constructor(storeOfContact = localStorage) {
-    this._storeOfContact = storeOfContact;
-  }
-
+class ContactLocalStorage {
+  // Classe implementaria a interface de contact client. --> Precisa ter o metodo get retornando um array de contatos (model)
+  // Classe de infra (se suja com a dependencia)
   get() {
-    const contacts = JSON.parse(this._storeOfContact?.getItem("messagesJSON"));
+    const contacts = JSON.parse(localStorage.getItem("messagesJSON"));
     return contacts;
   }
 }
 
-class Contact {
+class Messages {
   // O ideal seria uma interface p/ a dependencia de contact client, fazendo DI.
-  constructor(contactClient = new ContactClient()) {
-    this._contactClient = contactClient;
+  constructor(contactDependency = new ContactLocalStorage()) {
+    this._contactDependency = contactDependency;
   }
 
   getAllHtmlResults() {
-    const contacts = this._contactClient.get();
+    const contacts = this._contactDependency?.get();
     return this.parseMessage(contacts);
   }
 
@@ -39,7 +35,8 @@ class Contact {
   }
 }
 
-contact_test = new Contact();
+const messages = new Messages();
+
 document
   .querySelector(".messages-container__content")
-  .insertAdjacentHTML("afterbegin", contact_test.getAllHtmlResults());
+  .insertAdjacentHTML("afterbegin", messages.getAllHtmlResults());
