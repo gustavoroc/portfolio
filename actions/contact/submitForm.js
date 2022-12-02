@@ -1,11 +1,13 @@
-const btn = document.querySelector("#submit-form-btn");
 const form = document.querySelector(".contact-form");
 const fields = form.querySelectorAll(".form-field");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+  setLocalStorageMessages(fields);
+});
 
-  // 1) Captura os valores do formulario:
+const setLocalStorageMessages = (fields) => {
+  // 1) Declara os valores do formulario:
   const formInputValues = {
     nome: "",
     email: "",
@@ -34,4 +36,4 @@ form.addEventListener("submit", (e) => {
   fields.forEach((field) => {
     field.value = "";
   });
-});
+};
