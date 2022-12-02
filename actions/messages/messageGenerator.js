@@ -1,4 +1,6 @@
 class ContactClient {
+  // Essa classe implementaria a interface de contact client.
+  // Esta e a classe de infra (se suja com a dependencia)
   constructor(storeOfContact = localStorage) {
     this._storeOfContact = storeOfContact;
   }
@@ -10,6 +12,7 @@ class ContactClient {
 }
 
 class Contact {
+  // O ideal seria uma interface p/ a dependencia de contact client, fazendo DI.
   constructor(contactClient = new ContactClient()) {
     this._contactClient = contactClient;
   }
