@@ -1,0 +1,55 @@
+.messages-container {
+  min-height: 70vh;
+  padding: 5rem 1rem;
+}
+
+.messages-container__content {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.messages-container__message {
+  background: rgb(14, 120, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 120, 195, 1) 19%,
+    rgba(1, 79, 134, 1) 67%
+  );
+  color: #fff;
+  border-radius: 3rem;
+  width: 100%;
+  height: 200px !important;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  overflow-y: scroll;
+}
+
+@media (max-width: 1200px) {
+  .messages-container__content {
+    width: 100%;
+  }
+}
+
+.messages-container__message h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.messages-container__message spam {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.445);
+}
+
+.messages-container__message p {
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
