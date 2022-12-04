@@ -1,3 +1,6 @@
+import toggle from "../utils/toggle.js";
+import setFeedBackMessage from "../utils/setFeedBackMessage.js";
+
 const form = document.querySelector(".contact-form");
 const fields = form.querySelectorAll(".form-field");
 
@@ -32,4 +35,7 @@ form.addEventListener("submit", (e) => {
   fields.forEach((field) => {
     field.value = "";
   });
+
+  //7) 'Triggar' a mensagem de feedback p/ o usuario:
+  setFeedBackMessage("Sua mensagem foi enviada com sucesso!");
 });

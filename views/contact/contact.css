@@ -60,6 +60,7 @@
   position: absolute;
   top: -8rem;
 }
+
 .clear-msg-check-modal__card h3 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
@@ -119,6 +120,19 @@
   opacity: 0.9;
 }
 
+.feedback-container {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 88%;
+  left: 5%;
+  padding: 3rem;
+  border-radius: 1.5rem;
+}
+
+.feedback-container span {
+  font-size: 1.3rem;
+}
+
 @media (max-width: 1200px) {
   #clear-message-btn {
     position: absolute;
@@ -127,5 +141,12 @@
     transform: translate(-50%);
     width: 60%;
     padding: 1rem 1.5rem;
+  }
+
+  .feedback-container {
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
   }
 }
