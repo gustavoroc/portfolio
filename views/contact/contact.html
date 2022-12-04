@@ -40,7 +40,7 @@
 
     <script defer src="../../actions/navbar/navBar.js"></script>
     <script defer src="../../actions/contact/submitForm.js"></script>
-    <script defer src="../../actions/contact/clearMessages.js"></script>
+    <script type="module" defer src="../../actions/contact/modal.js"></script>
   </head>
   <body>
     <header>
@@ -119,7 +119,7 @@
     </header>
 
     <main class="container">
-      <div class="clear-msg-check-modal">
+      <div class="clear-msg-check-modal disabled">
         <div class="clear-msg-check-modal__card">
           <img
             src="../../assets/photos/suspicious-billy-photo.png"
@@ -130,8 +130,8 @@
             Todas suas mensagens salvas serão <br />
             deletadas do site! Use com cuidado
           </p>
-          <button>Nao! Quero mante-las a salvo!</button>
-          <button id="delete">Sim! Quero deletar tudo!</button>
+          <button id="keep">Nao! mante-las a salvo!</button>
+          <button id="delete">Sim! deletar tudo!</button>
         </div>
       </div>
       <section>
