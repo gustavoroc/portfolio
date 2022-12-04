@@ -3,10 +3,6 @@ const fields = form.querySelectorAll(".form-field");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  setLocalStorageMessages(fields);
-});
-
-const setLocalStorageMessages = (fields) => {
   // 1) Declara os valores do formulario:
   const formInputValues = {
     nome: "",
@@ -36,4 +32,4 @@ const setLocalStorageMessages = (fields) => {
   fields.forEach((field) => {
     field.value = "";
   });
-};
+});
