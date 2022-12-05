@@ -12,10 +12,17 @@ export default class Messages {
 
   parseMessage(contacts) {
     const htmlListOfContats = [];
+    if (!contacts) {
+      return `
+         <div style="font-size: 16px; height: 400px; display: flex; align-items: center; justify-content: center">
+           <p>está meio vazio por aqui..</p>
+         </div>
+      `;
+    }
     contacts.forEach((c) => {
       htmlListOfContats.push(`
           <articles class="messages-container__message default-box-shadow">
-              <div>
+              <div class="messages-container__title">
                   <h2>${c.nome}</h2>
                   <spam>${c.email}</spam>
               </div>
