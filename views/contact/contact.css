@@ -35,6 +35,11 @@ textarea::-webkit-scrollbar {
   width: 100%;
 }
 
+.contact-form button:disabled {
+  opacity: 0.5;
+  cursor: unset;
+}
+
 .clear-msg-check-modal {
   background-color: rgba(0, 0, 0, 0.342);
   top: 0;

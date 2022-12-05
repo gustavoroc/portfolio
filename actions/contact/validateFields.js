@@ -1,11 +1,15 @@
 import { Validation } from "../../usecases/Validation.js";
 import { minLengthValidation } from "../../validators/minLengthValidation.js";
+import { emailValidation } from "../../validators/emailValidation.js";
 
 const fields = document.querySelectorAll(".form-field");
 const submitBtn = document.querySelector("#submit-form-btn");
 
 const nomeValidator = new Validation([new minLengthValidation(5)]);
-const emailValidator = new Validation([new minLengthValidation(10)]);
+const emailValidator = new Validation([
+  new minLengthValidation(15),
+  new emailValidation(),
+]);
 const mensagemValidator = new Validation([new minLengthValidation(30)]);
 
 let errorsState = [];
@@ -32,6 +36,7 @@ fields.forEach((field) => {
 
     if (validationResult && !document.getElementById?.(errorSpanIdName)) {
       e.target.insertAdjacentHTML("afterend", errorSpanMessage);
+      submitBtn.setAttribute("disabled", true);
     } else if (!validationResult) {
       if (errorsState.indexOf(fieldName) != -1)
         errorsState.splice(errorsState.indexOf(fieldName), 1);
