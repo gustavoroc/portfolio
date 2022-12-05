@@ -12,6 +12,10 @@ body {
   box-sizing: border-box;
 }
 
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
 .container {
   display: flex;
   align-items: center;

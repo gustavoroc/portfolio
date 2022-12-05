@@ -2,6 +2,7 @@ import setFeedBackMessage from "../utils/setFeedBackMessage.js";
 
 const form = document.querySelector(".contact-form");
 const fields = form.querySelectorAll(".form-field");
+const submitBtn = document.querySelector("#submit-form-btn");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -35,6 +36,9 @@ form.addEventListener("submit", (e) => {
     field.value = "";
   });
 
-  //7) 'Triggar' a mensagem de feedback p/ o usuario:
+  // 7) Desabilitar o formulario p/ validacao:
+  submitBtn.setAttribute("disabled", true);
+
+  //8) 'Triggar' a mensagem de feedback p/ o usuario:
   setFeedBackMessage("Sua mensagem foi enviada com sucesso!");
 });
