@@ -1,4 +1,3 @@
-import toggle from "../utils/toggle.js";
 import setFeedBackMessage from "../utils/setFeedBackMessage.js";
 
 const form = document.querySelector(".contact-form");
