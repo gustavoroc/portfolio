@@ -132,14 +132,23 @@ textarea::-webkit-scrollbar {
 .feedback-container {
   background-color: rgb(255, 255, 255);
   position: absolute;
-  top: 88%;
+  top: 86%;
   left: 5%;
   padding: 3rem;
   border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .feedback-container span {
   font-size: 1.3rem;
+}
+
+.feedback-container ion-icon {
+  font-size: 2.5rem;
+  color: rgb(27, 223, 40);
 }
 
 @media (max-width: 1200px) {
@@ -156,6 +165,11 @@ textarea::-webkit-scrollbar {
     top: 15px;
     left: 50%;
     transform: translateX(-50%);
-    width: 60%;
+    width: 70%;
+  }
+
+  .feedback-container ion-icon {
+    font-size: 3rem;
+    color: rgb(27, 223, 40);
   }
 }
