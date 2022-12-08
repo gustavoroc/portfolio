@@ -3,8 +3,6 @@ export class Validation {
     this.validators = validators;
   }
 
-  validators = [];
-
   validate(fieldRelation) {
     let validationResponse;
     this.validators.forEach((validator) => {
