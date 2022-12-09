@@ -22,6 +22,15 @@
     <link rel="stylesheet" href="../../style/media-queries.css" />
     <link rel="stylesheet" href="../../style/animation.css" />
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
     <link
       rel="icon"
       type="image/x-icon"
@@ -45,6 +54,7 @@
       type="module"
       src="../../actions/messages/setMessages.js"
     ></script>
+    <script defer type="module" src="../../actions/messages/toggle.js"></script>
   </head>
   <body>
     <header>
@@ -121,6 +131,26 @@
     </header>
 
     <main class="messages-container">
+      <ion-icon
+        class="default-box-shadow"
+        id="clear-message-btn"
+        name="trash-sharp"
+      ></ion-icon>
+      <div class="clear-msg-check-modal disabled">
+        <div class="clear-msg-check-modal__card default-box-shadow">
+          <img
+            src="../../assets/photos/suspicious-billy-photo.png"
+            alt="personagem de desenho te olhando"
+          />
+          <h3>Voce tem certeza disso?</h3>
+          <p>
+            Todas suas mensagens salvas serão <br />
+            deletadas do site! Use com cuidado
+          </p>
+          <button id="keep">Nao! mante-las a salvo!</button>
+          <button id="delete">Sim! deletar tudo!</button>
+        </div>
+      </div>
       <section class="messages-container__content"></section>
     </main>
 

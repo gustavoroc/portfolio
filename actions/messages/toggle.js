@@ -1,5 +1,4 @@
 import toggle from "../utils/toggle.js";
-import setFeedBackMessage from "../utils/setFeedBackMessage.js";
 
 const modalClassName = ".clear-msg-check-modal";
 
@@ -25,8 +24,8 @@ keepBtn.addEventListener("click", (e) => {
 deleteBtn.addEventListener("click", (e) => {
   e.stopPropagation();
   localStorage.removeItem("messagesJSON");
+  window.location.href = "./messages.html";
   toggle(modalClassName);
-  setFeedBackMessage("Mensagens removidas!");
 });
 
 modalContainer.addEventListener("click", () => {
