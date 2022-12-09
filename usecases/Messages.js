@@ -11,7 +11,7 @@ export default class Messages {
   }
 
   parseMessage(contacts) {
-    const htmlListOfContats = [];
+    let htmlListOfContats = "";
     if (!contacts) {
       return `
          <div style="font-size: 16px; height: 400px; display: flex; align-items: center; justify-content: center">
@@ -20,7 +20,7 @@ export default class Messages {
       `;
     }
     contacts.forEach((c) => {
-      htmlListOfContats.push(`
+      htmlListOfContats += `
           <articles class="messages-container__message default-box-shadow">
               <div class="messages-container__title">
                   <h2>${c.nome}</h2>
@@ -28,7 +28,7 @@ export default class Messages {
               </div>
               <p>${c.mensagem}</p>
           </articles>
-         `);
+         `;
     });
     return htmlListOfContats;
   }
